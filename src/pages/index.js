@@ -4,41 +4,43 @@ import Layout from "../components/layout";
 
 const verticalLeft = {
   color: "white",
-  background: "black",
+  background: "#313d3e",
   padding: 40,
   textTransform: "uppercase",
   transform: "rotate(-180deg)",
   writingMode: "vertical-rl",
-  fontKerning: "auto",
-  // textOrientation: "upright",
+  letterSpacing: ".3em",
   textAlign: "center",
   width: 100,
+  borderLeft: "white solid 8px",
   fontSize: 44,
-  fontFamily: "monospace",
-  fontWeight: 800,
+  fontFamily: "Helvetica Neue",
+  fontWeight: 500,
 };
 
 const horizontalRight = {
   color: "white",
   background: "black",
   padding: 40,
+  textTransform: "uppercase",
   writingMode: "vertical-rl",
-  // textOrientation: "upright",
   textAlign: "center",
+  borderLeft: "white solid 8px",
+  letterSpacing: ".3em",
   width: 100,
   fontSize: 44,
-  fontFamily: "monospace",
-  fontWeight: 800,
+  fontFamily: "Helvetica Neue",
+  fontWeight: 500,
 };
 
-const layout = {margin: 0, height: 1080, width: 1920, display: "flex"};
+const layout = {margin: 0, height: 1200, width: 1920, display: "flex"};
 
 const IndexPage = () => (
   <Layout>
     <section style={layout}>
       <div style={verticalLeft}>bdougie.live</div>
       <p style={{width: "100%"}}></p>
-        <div style={horizontalRight}><span style={{transform:"rotate(-180deg)"}}>🍕</span> opensauced.pizza</div>
+      <div style={horizontalRight}>opensauced.pizza</div>
     </section>
   </Layout>
 );

@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const verticalLeft = {
   color: "white",
-  background: "#313d3e",
+  background: "black",
   padding: 40,
   textTransform: "uppercase",
   transform: "rotate(-180deg)",
@@ -12,7 +12,6 @@ const verticalLeft = {
   letterSpacing: ".3em",
   textAlign: "center",
   width: 100,
-  borderLeft: "white solid 8px",
   fontSize: 44,
   fontFamily: "Helvetica Neue",
   fontWeight: 500,
@@ -25,7 +24,6 @@ const horizontalRight = {
   textTransform: "uppercase",
   writingMode: "vertical-rl",
   textAlign: "center",
-  borderLeft: "white solid 8px",
   letterSpacing: ".3em",
   width: 100,
   fontSize: 44,

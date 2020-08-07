@@ -17,28 +17,13 @@ const verticalLeft = {
   fontWeight: 500,
 };
 
-const horizontalRight = {
-  color: "white",
-  background: "black",
-  padding: 40,
-  textTransform: "uppercase",
-  writingMode: "vertical-rl",
-  textAlign: "center",
-  letterSpacing: ".3em",
-  width: 100,
-  fontSize: 44,
-  fontFamily: "Helvetica Neue",
-  fontWeight: 500,
-};
-
 const layout = {margin: 0, height: 1200, width: 1920, display: "flex"};
 
 const IndexPage = () => (
   <Layout>
     <section style={layout}>
-      <div style={verticalLeft}>bdougie.live</div>
+      <div style={verticalLeft}>opensourcefirday.com</div>
       <p style={{width: "100%"}}></p>
-      <div style={horizontalRight}>opensauced.pizza</div>
     </section>
   </Layout>
 );

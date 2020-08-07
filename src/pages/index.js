@@ -22,7 +22,7 @@ const layout = {margin: 0, height: 1200, width: 1920, display: "flex"};
 const IndexPage = () => (
   <Layout>
     <section style={layout}>
-      <div style={verticalLeft}>opensourcefirday.com</div>
+      <div style={verticalLeft}>opensourcefriday.com</div>
       <p style={{width: "100%"}}></p>
     </section>
   </Layout>
